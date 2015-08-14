@@ -438,6 +438,9 @@
       .enter()
         .append('svg:circle')
         .attr('class', 'datamaps-bubble')
+        .attr('id', function( datum ) {
+          return datum.isoId;
+        })
         .attr('cx', function ( datum ) {
           var latLng;
           if ( datumHasCoords(datum) ) {
