@@ -458,7 +458,7 @@
           }
           if ( latLng ) return latLng[1];;
         })
-        .attr('r', 0) //for animation purposes
+        .attr('r', 100) //for animation purposes
         .attr('data-info', function(d) {
           return JSON.stringify(d);
         })
