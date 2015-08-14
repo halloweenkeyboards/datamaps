@@ -2301,23 +2301,23 @@
                 "arcs": [
                     [558, -317, -322]
                 ]
-            }, {
+            }, /*{
                 "type": "Polygon",
                 "properties": {
                     "name": "Somaliland"
                 },
-                "id": "-99",
+                "id": "SLD",
                 "arcs": [
                     [-263, -231, 559, 560]
                 ]
-            }, {
+            },*/ {
                 "type": "Polygon",
                 "properties": {
                     "name": "Somalia"
                 },
                 "id": "SOM",
                 "arcs": [
-                    [-397, -264, -561, 561]
+                    [-397, -264, -263, -231, 559, 561]
                 ]
             }, {
                 "type": "Polygon",
